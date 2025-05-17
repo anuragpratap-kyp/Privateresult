@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    height: 199px;
+    width: 1352px;
+    border: none;
+    position: relative;
+    background-color: brown;
+}
+.button{
+    position: fixed;
+    cursor: pointer;
+}
+ 
+.logo{
+    padding: 5px;
+    /* left:50px; */
+    float: left;
+}
+font{
+    left: 470px;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+
+
+}
+img{
+    border-radius: 200px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#title{
+    /* padding-left: 500px; */
+    padding-top: 45px;
+    font-size:   60px;
+    text-align: center;
+    color: aliceblue;
+}
+.bar{
+    height: 50px;
+    position: absolute;
+    width: auto;
+    /* padding-top: 0px; */
+    /* list-style: none; */
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bar li{
+    /* text-decoration: none; */
+    float: left;
+    width: 145px;
+    /* width: auto; */
+    text-align: center;
+    height: 35px;
+    max-width: 1000px;
+    list-style: none;
+    background-color: black;
+    margin-right:2px;
+    padding: 11px;
+    /* font: 60px; */
+    color: white;
+    /* overflow: hidden; */
+    
+}
+.bar li:hover{
+    background-color: rgb(212, 250, 0);
+    transition: 800ms;
+
+}
+.bar li:active{
+    background-color: brown;
+    transition: 10ms
+}
+.bar li a{
+    text-decoration: none;
+    /* list-style: none; */
+    font-size: 30px;
+    padding-top: 11 px;
+    /* overflow: hidden; */
+    color: white;
+    /* cursor: pointer; */
+}
+#wrap{
+    height: 50px;
+}
+
+.mid{
+    height: 250px;
+    /* width: 1350px; */
+    width: auto;
+    /* background-color: rgb(235, 220, 220); */
+    margin-top: 80px;
+    padding: 0px;
+    color: blue;
+    /* box-sizing: border-box; */
+}
+.mid p{
+    color:blue;
+    font-size: 25px;
+    font-family: calibri;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+
+}
+p{
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.button{
+    height: 50px;
+    widows: auto;
+    /* margin-top: 10px; */
+    position: absolute;
+}
+.button tr{
+    max-width: 1350px;
+    width: 1350px;
+}
+.button tr td{
+    width: 400px;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 50px;
+    border: 1px solid white;
+    font-size: 30px;
+    color: aliceblue;
+}
+#linkbar{
+    height: 1000px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 150px;
+    position: relative;
+}
+#linkbar table{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    border: 2 px solid black;
+    /* background-color: aqua; */
+}
+.h tr td{
+    width:33.33%
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* margin-left: 20px; */
+}
+.h ul li{
+    padding-left:70px ;
+    paddind-top:60px;
+    padding-bottom: 20px;
+    list-style: none;
+    /* text-align: center; */
+}
+
+.hes{
+    padding: 0;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 40px;
+    font-size: 30px;
+    border-top:2px solid black ;
+    border-left:2px solid black ;
+    border-right:2px solid black ;
+}
+.h{
+    padding-top: 20px;
+    border: 2px solid black ;
+    overflow: hidden;
+}
+#footer{
+    background-color: rgb(168, 168, 168);
+    height: 420px;
+    width: 1352px;
+    /* margin-top: 100px; */
+   
+}
+.footer2{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.footer3{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: rgb(142, 121, 161);
+}
+.footer1{
+    height: 100%;
+    width: 400px;
+    /* border: 2px solid black;  */
+}
+.footer1 h1{
+    padding: 40px 40px 0px 40px;
+    text-align: left;
+    font-size: 30px;
+}
+.footer1 p{
+    padding: 10px 0 0 50px;
+}
+.footer1 p a{
+    text-decoration: none;
+    color: rgb(5, 1, 184);
+}
+.footer1 button{
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+.footer3 img{
+    padding-right: 30px;
+
+}
+.footer3 span{
+    padding-left: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+}
